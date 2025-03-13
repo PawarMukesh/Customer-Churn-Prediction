@@ -19,7 +19,7 @@ with open("scaler.pkl", "rb") as file:
     scaler = pickle.load(file)
 
 # Streamlit App Title
-st.title("Customer Churn Prediction App 🚀")
+st.title("Customer Churn Prediction 🚀")
 
 # Sidebar for Inputs
 st.sidebar.header("Enter Customer Details")
